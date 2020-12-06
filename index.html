@@ -7,6 +7,39 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+    <header>
+        Dice Game
+    </header>
+    <main>
+        <div class="dice">
+            <p>You</p>
+            <img id="img1" src="images/dice1.png">
+            <img id="img2" src="images/dice2.png">
+            <p>Score this round</p>
+            <p id="score1">0</p>
+            <p>Total Score</p>
+            <p id="score2">0</p>
+        </div>
+        <div class="dice">
+            <p>Opponent</p>
+            <img id="img3" src="images/dice3.png">
+            <img id="img4" src="images/dice4.png">
+            <p>Score this round</p>
+            <p id="score3">0</p>
+            <p>Total Score</p>
+            <p id="score4">0</p>
+
+        </div>
+        <div>
+            <button type="button" class="btn" onclick="rollDice()">
+                New Game
+            </button>
+    
+            <button type="button" class="btn" onclick="rollDice()">
+                Roll Dice
+            </button>
+        </div>
+    </main>
 <script src="scripts/script.js"></script>
 </body>
 </html>
