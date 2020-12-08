@@ -11,6 +11,10 @@
         Dice Game
     </header>
     <main>
+        <section id="pop-up">
+            <h1></h1>
+                <button id="btn-close">&#10005;</button>
+        </section>
         <div class="dice">
             <p>You</p>
             <img id="img1" src="images/dice1.png">
@@ -31,11 +35,11 @@
 
         </div>
         <div>
-            <button type="button" class="btn" onclick="rollDice()">
+            <button type="button" class="btn" onClick="newGame()">
                 New Game
             </button>
     
-            <button type="button" class="btn" onclick="rollDice()">
+            <button type="button" class="btn" onClick="rollDice()">
                 Roll Dice
             </button>
         </div>
